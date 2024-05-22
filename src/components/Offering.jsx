@@ -6,10 +6,10 @@ const Offering = () => {
   return (
     <>
       <section id="offerings">
-        <div className="container mt-20 pt-20  border-t border-black "><h2 className="h2 mb-10 text-9xl"> WHAT WE OFFER?</h2></div>
-        <div class="container grid grid-cols-3 gap-4">
+        <div className="container mt-20 pt-20  border-t border-black "><h2 className="h2 mb-10 text-5xl lg:text-9xl"> WHAT WE OFFER?</h2></div>
+        <div class="container lg:grid grid-cols-3 gap-4">
         
-          <div class="col-span-2 ... relative h-[30rem] text-color-8 rounded-lg flex flex-col overflow-hidden ">
+          <div class="col-span-2 ... relative lg:h-[30rem] text-color-8 rounded-lg flex flex-col overflow-hidden ">
             <div className="h-full relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
               <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
